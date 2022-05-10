@@ -148,7 +148,7 @@ public class Player : MonoBehaviour
             // contador de posiciones del opnoennte
             cont = cont + 1;
         }
-        o.utility = cont * 0.1; // utilidad de las fichas que en ese turno van a cambiar de color.
+        o.utility = cont; // utilidad de las fichas que en ese turno van a cambiar de color.
     }
 }
 
